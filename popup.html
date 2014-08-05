@@ -1,10 +1,44 @@
 <html>
 <head>
-  <script src="jquery.min.js"></script>
-  <script src="popup.js"></script>
+<script src="jquery.min.js"></script>
+<script src="popup.js"></script>
+<style>
+body {
+    width: 400px;
+    text-align: center;
+    background: white;
+}
+.textbox { 
+    border-radius: 30px;
+    border: 1px solid #848484; 
+    -webkit-border-radius: 30px; 
+    -moz-border-radius: 30px; 
+    outline: 0;
+    height: 50px;
+    width: 275px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 25px;
+} 
+.title{
+    color: rgb(75, 75, 75);
+    font-family: "Helvetica", sans-serif;
+}
+.introduction-keyword{
+    margin: 2em 0 1em 0;
+    font-weight: 300;
+    font-size: 20px;
+    color: #888;
+    position: relative;
+}
+</style>
 </head>
-<body style="width: 400px">
-  <div>Search Bookmarks:
-   <input id="search"></div>
+
+<body>
+<h1 class="title">MONHACK</h1>
+<p class="introduction-keyword">Enter your keyword</p>
+<div>
+    <input class="textbox" id="search">
+</div>
 </body>
 </html>

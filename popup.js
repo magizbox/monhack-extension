@@ -4,6 +4,7 @@
 
 // Search the bookmarks when entering the search keyword.
 $(function() {
+    $('#search').focus();
     $('#search').keyup(function(e){
         if(e.keyCode == 13) {
             var value = $('#search').val();
